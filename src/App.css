@@ -1,0 +1,89 @@
+.mainScreen{
+    background-color: aquamarine;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;   
+}
+
+.cardDiv{
+  margin-top: 15px;
+  height:500px;
+  width:400px;
+  background-color: rgb(148, 148, 207);
+  border:5px solid rgb(192, 136, 136);
+  border-radius: 25px;
+
+
+}
+.mainHeading{
+  background-color: rgb(152, 152, 199);
+  text-align: center;
+  height:15vh;
+  font-size: 110px;
+  margin:0px;
+  color: rgb(94, 94, 76);
+}
+.footer{
+  height:10vh;
+  background-color: rgb(66, 66, 101);
+}
+.cardtitle{
+  background-color: rgb(56, 87, 114);
+  height: 50px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 45px;
+}
+.inputDiv{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+
+}
+.input{
+  background-color: rgb(148, 148, 207);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-color:rgb(56, 87, 114) ;
+  border-bottom-width: 4px;
+  height: 40px;
+  width: 300px;
+  font-size:35px;
+  
+}
+
+.addIcon{
+  font-size: 35px;
+  cursor: pointer;
+}
+.listdiv{
+  margin-top: 10px;
+  height:300px;
+  overflow: scroll;
+  margin-left: 5px;
+  margin-right: 10px;
+
+}
+.list{
+display:flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.listcontent{
+  font-size: 35px;
+  width: 300px;
+  overflow: scroll;
+
+}
+.minuscircle{
+  color: red;
+  font-size: 35px;
+  cursor: pointer;
+}
+.listnumber{
+font-size: 40px;
+}
